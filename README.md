@@ -50,6 +50,7 @@ Evaluate the performance of the RBF network on the test data by comparing the pr
 
 
 ## PROGRAM:
+```
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -125,14 +126,18 @@ print(f"Input:{np.array([1, 0])}, Predicted: {predict_matrix(np.array([1, 0]), w
 
 print(f"Input:{np.array([1, 1])}, Predicted: {predict_matrix(np.array([1, 1]), w)}")
 
-
+```
 ## OUTPUT :
-    /**PLOTS of Output in hidden space**/
-    /Classification results
+  ![Screenshot 2023-11-07 102221](https://github.com/Dharshan011/Experiment-5-Implementation-of-XOR-using-RBF/assets/113497491/587d3761-8082-4034-9c96-9421d551655e)
+
+![Screenshot 2023-11-07 102230](https://github.com/Dharshan011/Experiment-5-Implementation-of-XOR-using-RBF/assets/113497491/2af95d67-6943-4dbd-b6a5-a5832281ee14)
+
+
+
 
 ## RESULT:
 
-
+Hence the XOR using RBF is implemented.
 
 
 
